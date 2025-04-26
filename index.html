@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthicalGT - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">Ethical<span>GT</span></div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#aboutme">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#aboutme">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <p id="craftertag">Crafted with <span id="hearts">&hearts;</span> by GT</p>
+      </div>
+    </header>  
+    <section class="container">
+      <main>
+        <div class="main-container">
+          <div class="picture-container">
+            <img src="img/GT.png">
+          </div>
+          <div class="desc-container">
+            <div class="typewriter">Hi, I’m <span>Ganesh Telore</span></div>
+            <p>A Full-Stack Developer, Creative Thinker, and Tech Enthusiast. I'm a curious and passionate developer who thrives on turning ideas into practical, user-focused solutions. With a strong foundation in software development and a deep interest in solving real-world problems, I constantly challenge myself to learn, grow, and push creative boundaries. Whether it's building from scratch or refining existing systems, I believe in writing clean, efficient code and creating digital experiences that are both functional and meaningful. Driven by a love for innovation and a commitment to continuous improvement, I’m always ready to explore new horizons and make an impact through thoughtful, purposeful development.</p>
+            <a href="#contact"><button></button></a>  
+          </div>
+          </div>
+        </div>
+
+        <div class="about-me" id="aboutme">
+          <h2>Know About Me!</h2>
+          <div class="aboutme-container">
+            <div class="aboutme-desc-container">
+              <p>I'm Ganesh Telore, a highly motivated and self-taught developer with a deep interest in crafting meaningful digital experiences. I’m known for my strong focus, curiosity, and dedication to personal growth. From a young age, I’ve been drawn to the logic and creativity that software development demands, and over time, it has become more than just a skill—it's my passion. I value precision, clarity, and purpose in everything I build. I constantly seek improvement and never settle for average, driven by an inner hunger to create things that matter. Outside of coding, I enjoy reflecting, setting high goals, and challenging myself to become better—technically and personally—each day.</p>
+              <b>Words I Live By -</b>
+              <p><i>"Mastery in code isn’t flaunted — it’s hidden in the mystery only few can ever decode."</i></p>
+            </div>
+            <div class="aboutme-picture-container">
+              <img src="img/GT.png">
+            </div>
+          </div>
+          <div class="aboutme-info">
+            <div class="info-container">
+              <h3>15+ Projects</h3>
+              <p>Built and deployed 15+ unique projects ranging from cultural platforms to mental health apps.
+                Each project is self-designed, functional, and solves a real-world problem.
+                Focused on clean architecture, performance, and security.
+                Projects include admin panels, skill exchanges, payment gateways, and more.
+                Every line of code is written with a problem-solving mindset.</p>
+            </div>
+            <div class="info-container">
+              <h3>6 Languages</h3>
+              <p>Proficient in Java, Go, Rust, Python, PHP, and Kotlin.
+                Uses each language based on the project's nature and system demands.
+                Loves diving deep into language internals and best practices.
+                Switches comfortably between backend services, CLI tools, and web apps.
+                Keeps learning syntax and patterns to write optimized, maintainable code.</p>
+            </div>
+            <div class="info-container">
+              <h3>Open Source Contributor</h3>
+              <p>Actively contributes to open-source tools and libraries.
+                Believes in the power of community-driven development.
+                Writes clean, documented code to help others grow.
+                Open-sourced all major personal projects like EthicalDood & CulturyUS.
+                Always ready to collaborate and improve others' work.</p>
+            </div>
+            <div class="info-container">
+              <h3>Framework Familarity</h3>
+              <p>Actively contributes to open-source tools and libraries.
+                Believes in the power of community-driven development.
+                Writes clean, documented code to help others grow.
+                Open-sourced all major personal projects like EthicalDood & CulturyUS.
+                Always ready to collaborate and improve others' work.</p>
+            </div>
+          </div>
+          <div class="mywork-container" id="projects">
+            <h2>Explore My Work...</h2>
+            <p>Explore a showcase of innovative projects crafted with passion, purpose, and a drive to make ideas come alive</p>
+            <div class="hr-container"></div>
+            <div class="scroller-wrapper">
+              <button class="scroll-btn left">&#8592;</button>
+            
+              <div class="scroller" id="scroller">
+                <div class="item"><h3>EthicalDood</h3>
+                  <p>EthicalDood is a source code repository and educational web platform designed to help users learn programming languages through real-world web-based applications. It offers solved coding problems, question-answers, and solutions in PDF format—making it a practical resource for students and self-learners.</p>
+                  <a href="https://github.com/EthicalGT/EthicalDood.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>EthicalDood 2.0</h3>
+                  <p>EthicalDood 2.0 is an enhanced PHP-based web application that serves as a comprehensive source code repository platform. Building on the foundation of EthicalDood 1.0, this new version introduces powerful features like interactive forums, MCQ tests, a user upload section, and more—creating an all-in-one hub for developers to share, learn, and collaborate effectively.</p>
+                  <a href="https://github.com/EthicalGT/Ethicaldood-2.0.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>EthicalDood 3.0</h3>
+                  <p>EthicalDood 3.0 is a Java Swing and AWT-based desktop application that brings all the powerful features of its previous web versions into an offline environment. Upgraded from 2.0, it includes everything from code repositories, forums, and MCQ tests to exciting new additions like a plagiarism detector, content management system, online compiler, video lectures, and many more.</p>
+                  <a href="https://github.com/EthicalGT/Ethicaldood-3.0.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>EthicalPay</h3>
+                  <p>EthicalPay is a dummy and test-mode payment gateway designed specifically for students and college-level projects. It provides an easy-to-integrate solution for handling transactions in a controlled environment, allowing developers to test payment flows without real financial transactions.</p>
+                  <a href="https://troubled-eloisa-ethicalpay-eb02efa7.koyeb.app/"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>LocalPal</h3>
+                  <p>LocalPal is a static web application built with Django and a MySQL database, designed to be a comprehensive guide for users to explore nearby attractions and social places. The application provides detailed information about various locations, helping users find interesting places to visit. It includes an admin panel for content management, where the admin can add, update, or delete information using CRUD operations, as well as gather feedback from users.</p>
+                  <a href="https://github.com/EthicalGT/LocalPal.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>PsychBuddy</h3>
+                  <p>PsychBuddy is a robust Django-based web application designed to provide comprehensive mental health support. It empowers users to access a variety of therapeutic resources, book appointments, connect with therapists, and track their emotional well-being through advanced features like AI support and emotion detection. Whether you're seeking therapy, exploring wellness techniques, or engaging with a supportive community, PsychBuddy is your trusted companion on the journey to mental well-being.</p>
+                  <a href="https://github.com/EthicalGT/Psychbuddy.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>Shop-G</h3>
+                  <p>Shop-G is a PHP-based web application designed for a seamless grocery shopping experience. The platform includes all the essential features of a modern shopping application, including cart management, product listings, user feedback, and an admin panel to manage the products. The application is powered by a MySQL database, ensuring smooth storage and retrieval of product and user information.</p>
+                  <a href="https://github.com/EthicalGT/Shop-G.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>CineVibe</h3>
+                  <p>CineVibe is an open-source web application designed for movie lovers to watch, download, and book tickets for movies online. It provides a simple yet powerful platform where users can explore movie descriptions, ratings, and more. The site is managed by an admin who has full control over site content through CRUD (Create, Read, Update, Delete) operations.</p>
+                  <a href="https://github.com/EthicalGT/CineVibe.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>Kohinoor</h3>
+                  <p>Kohinoor is a PHP-based web application designed for a seamless jewellery shopping experience. It provides an elegant and user-friendly interface with features such as cart management using PHP sessions, purchase handling, and admin CRUD operations for efficient management. The platform also includes a feedback system to enhance customer engagement. MySQL is used as the database for managing user data, product listings, orders, and feedback.</p>
+                  <a href="https://github.com/EthicalGT/Kohinoor.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>Kavach</h3>
+                  <p>Kavach is a mobile application designed for women's safety, offering a range of ultimate security features to provide immediate help in emergencies. With functionalities like SOS alerts, live location sharing, emergency calling services, and admin notifications, Kavach ensures the safety and well-being of its users in critical situations.</p>
+                  <a href="https://github.com/EthicalGT/Kavach.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>BabyCare</h3>
+                  <p>BabyCare is a Java-based desktop application designed to provide valuable information and product recommendations for newborn babies. This offline, easy-to-use application allows administrators to manage content efficiently while offering parents guidance on baby care, baby products, and baby name ideas based on different religions.</p>
+                  <a href="https://github.com/EthicalGT/Babycare.git"><button>Explore!</button></a>
+                </div>
+
+                <div class="item"><h3>NewsHub</h3>
+                  <p>NewsHub is a dynamic news platform where users can view the latest news, send feedback, and interact with published articles. Admins have full control over managing news, ensuring the content stays fresh and relevant.</p>
+                  <a href="https://github.com/EthicalGT/NewsHub.git"><button>Explore!</button></a>
+                </div>
+
+              </div>
+            
+              <button class="scroll-btn right">&#8594;</button>
+            </div>
+            
+          </div>
+        </div>
+      </main>
+    </section>
+    <section id="skills">
+      <div class="myskills-container">
+        <div class="skills">
+          <div class="skillbox">
+<img src="img/web-dev.png" alt="Web Development">
+<h3>Web Development</h3>
+<p>Experienced in building responsive and dynamic websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/java.png" alt="Java">
+<h3>Java</h3>
+<p>Proficient in Java programming for developing robust applications, including both desktop and server-side solutions.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/python.png" alt="Python">
+<h3>Python</h3>
+<p>Skilled in Python for web development, data analysis, and machine learning, with a focus on writing clean and efficient code.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/go.png" alt="Go">
+<h3>Go</h3>
+<p>Experienced with Go (Golang) to build high-performance, scalable applications, focusing on concurrency and efficiency.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/php.png" alt="PHP">
+<h3>PHP</h3>
+<p>Strong in PHP for server-side web development, building dynamic websites and web applications with databases.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/rust.png" alt="Rust">
+<h3>Rust</h3>
+<p>Proficient in Rust, focusing on performance and memory safety, and building reliable and high-performance systems.</p>
+</div>
+
+<div class="skillbox">
+<img src="img/android.png" alt="Android App Development (Java)">
+<h3>Android App Development (Java)</h3>
+<p>Experienced in developing Android mobile applications using Java, from UI design to backend integration.</p>
+</div>
+
+        </div>
+      </div>
+      <div class="contactme-container" id="contact">
+        <div class="contactme-anim">
+          <img src="img/letter-unscreen.gif" >
+          <br>
+          <h3>Drop Your Inquiries here!</h3>
+          </div>
+          <div class="contactme-form">
+            <h2>Get In Touch</h2>
+            <p>Reach out for inquiries or collaborations.</p>
+            <form action="https://api.web3forms.com/submit" method="POST" name="contactForm" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="message" required></textarea>
+              
+                <input type="hidden" name="access_key" value="4e5f3210-ad8b-4645-8282-687630bf7fa1">
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+      </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-links">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:ganeshtelore4@gmail.com">ganeshtelore4@gmail.com</a></p>
+      </div>
+      <div class="socialmedia-links">
+        <a href="https://github.com/EthicalGT/" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/effortlessgt?utm_source=qr&igsh=MW10azA5aTBkaTYxbA==" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ganesh-telore-0b566a303/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/qr/TTCPPLO4MHO3B1" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <p class="footer-line">&copy; 2025 Ganesh Telore. All Rights Reserved.</p>
+      </footer>
+    <script src="js/script.js">
+    </script>
+    </body>
+    </html>
