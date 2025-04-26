@@ -59,6 +59,6 @@
 
 ---
 
-### ✨ *"Stay hungry. Stay foolish."* — Steve Jobs
+### ✨ *"Let's do it, with Max Efforts!."*
 
 ---
