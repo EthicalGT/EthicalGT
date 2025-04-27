@@ -65,6 +65,12 @@
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=your-github-username&theme=radical" alt="GitHub Activity Graph" />
 </p>
 
+## 📚 Most Used Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EthicalGT&layout=compact&theme=radical" alt="Most Used Languages" />
+</p>
+
 ---
 
 ## Portfolio
