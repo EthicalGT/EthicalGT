@@ -85,6 +85,5 @@
   </a>
 </p>
 
-### ✨ *"Let's do it, with Max Efforts!."*
-
+### ✨ *"Simplicity kills efficiency. Complexity builds power."*
 ---
