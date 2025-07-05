@@ -41,7 +41,7 @@ const SkillStackContainer = () => {
     };
 
     return (
-        <section>
+        <section id="skills">
             <FadeUpOnScroll>
                 <h1>Skills & Stack</h1>
                 <div className="skillContainer">

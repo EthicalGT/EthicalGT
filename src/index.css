@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: MyFont;
   src: url('./assets/fonts/Ubuntu-Regular.ttf');
@@ -168,7 +172,7 @@ body {
 .side-menu ul li a {
   color: #e0f0ff;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 18px;
   display: block;
   padding: 6px 10px;
   border-radius: 4px;
@@ -176,8 +180,8 @@ body {
 }
 
 .side-menu ul li a:hover {
-  background-color: #004c80;
-  color: #cce7ff;
+  background-color: var(--accent-color);
+  color: var(--surface-color);
 }
 
 section {
@@ -434,6 +438,7 @@ p {
   cursor: pointer;
   padding-right: 20px;
   padding-top: 13px;
+  color: var(--muted-text-color);
 }
 
 .actionContainers i:hover {
@@ -708,6 +713,10 @@ footer {
   font-weight: bold;
 }
 
+#phonePara i {
+  padding-right: 10px;
+}
+
 @media (min-width: 768px) {
   .desktop-nav {
     display: block;
@@ -756,6 +765,10 @@ footer {
 
   .ECContainer {
     flex-direction: column;
+  }
+
+  #educationHeading {
+    padding: 5px 10px;
   }
 
   .timeline-card {

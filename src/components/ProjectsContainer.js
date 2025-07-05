@@ -12,7 +12,7 @@ import FadeUpOnScroll from './FadeUpOnScroll';
 
 const ProjectsContainer = () => {
     return (
-        <section>
+        <section id="projects">
             <FadeUpOnScroll>
                 <h1>Projects</h1>
                 <div className="projectsContainer">
@@ -28,7 +28,7 @@ const ProjectsContainer = () => {
                         </div>
 
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/CulturyUs"><i class="fa-brands fa-github"></i></a>
 
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Ethicaldood"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -57,7 +57,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Ethicaldood-2.0"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -71,7 +71,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/EthicalDood-3.0"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -85,8 +85,8 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
-                            <i class="fa-solid fa-rocket"></i>
+                            <a href="https://github.com/EthicalGT/EthicalPay"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://troubled-eloisa-ethicalpay-eb02efa7.koyeb.app/"><i class="fa-solid fa-rocket"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -100,7 +100,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/LocalPal"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -114,7 +114,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Psychbuddy"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -128,7 +128,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Shop-G"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -142,7 +142,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/CineVibe"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -156,7 +156,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Kohinoor"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -170,7 +170,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Kavach"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -184,7 +184,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/Babycare"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -198,7 +198,7 @@ const ProjectsContainer = () => {
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
-                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/EthicalGT/NewsHub"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>

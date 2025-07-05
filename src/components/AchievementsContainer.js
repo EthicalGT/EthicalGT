@@ -27,7 +27,7 @@ const AchievementsContainer = () => {
     };
 
     return (
-        <section>
+        <section id="achievements">
             <FadeUpOnScroll>
                 <h1 className="achievements-title">Achievements</h1>
                 <div className="achievementsContainer">
