@@ -169,6 +169,7 @@ body {
   margin: 25px 0;
 }
 
+
 .side-menu ul li a {
   color: #e0f0ff;
   text-decoration: none;
@@ -607,6 +608,13 @@ p {
 .social-connect {
   flex: 1;
   min-width: 300px;
+}
+
+.contact-form .error {
+  color: var(--danger-color);
+  font-size: 0.875rem;
+  margin-top: 4px;
+  padding: 0px 5px;
 }
 
 .contact-form h2,
