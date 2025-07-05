@@ -1,4 +1,13 @@
 import culturyus from '../assets/img/projects_img/culturyus.png';
+import ed_2 from '../assets/img/projects_img/ed_2.jpeg';
+import ed_3 from '../assets/img/projects_img/ed_3.jpeg';
+import ethicalpay from '../assets/img/projects_img/ethicalpay.jpeg';
+import shopg from '../assets/img/projects_img/shopg.jpeg';
+import newshub from '../assets/img/projects_img/newshub.jpeg';
+import cinevibe from '../assets/img/projects_img/cinevibe.jpeg';
+import kavach from '../assets/img/projects_img/kavach.png';
+import kohinoor from '../assets/img/projects_img/kohinoor.jpeg';
+
 import FadeUpOnScroll from './FadeUpOnScroll';
 
 const ProjectsContainer = () => {
@@ -20,11 +29,11 @@ const ProjectsContainer = () => {
 
                         <div className="actionContainers">
                             <i class="fa-brands fa-github"></i>
-                            <i class="fa-solid fa-rocket"></i>
+
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_2} alt="EthicalDood" />
                         <h2>EthicalDood</h2>
                         <p>EthicalDood is a learning platform offering real-world code examples, solved problems, and PDF solutions to help users master programming effectively.</p>
                         <h3>Technology Stack</h3>
@@ -38,7 +47,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_2} alt="EthicalDood 2.0" />
                         <h2>EthicalDood 2.0</h2>
                         <p>EthicalDood 2.0 is an advanced PHP-based platform that extends its original version with features like forums, MCQ tests, and user uploads—offering a complete space for developers to learn, share code, and collaborate.</p>
                         <h3>Technology Stack</h3>
@@ -52,7 +61,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_3} alt="EthicalDood 3.0" />
                         <h2>EthicalDood 3.0</h2>
                         <p>EthicalDood 3.0 is a Java Swing/AWT desktop app that brings the full power of its web predecessors offline, adding new tools like a plagiarism detector, CMS, online compiler, and video lectures for an all-in-one coding platform.</p>
                         <h3>Technology Stack</h3>
@@ -66,7 +75,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ethicalpay} alt="EthicalPay" />
                         <h2>EthicalPay</h2>
                         <p>EthicalPay is a test-mode payment gateway tailored for student and college projects, enabling safe and realistic transaction flow testing without real financial operations.</p>
                         <h3>Technology Stack</h3>
@@ -77,10 +86,11 @@ const ProjectsContainer = () => {
                         </div>
                         <div className="actionContainers">
                             <i class="fa-brands fa-github"></i>
+                            <i class="fa-solid fa-rocket"></i>
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_2} alt="LocalPal" />
                         <h2>LocalPal</h2>
                         <p>LocalPal is a Django-based static web app with MySQL that guides users to nearby attractions. It features an admin panel for managing content and collecting user feedback.</p>
                         <h3>Technology Stack</h3>
@@ -94,7 +104,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_2} alt="PsychBuddy" />
                         <h2>Psychbuddy</h2>
                         <p>PsychBuddy is a Django web app offering mental health support through therapy booking, emotion detection, resources, and community engagement—helping users manage their well-being effectively.</p>
                         <h3>Technology Stack</h3>
@@ -108,7 +118,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={shopg} alt="Shop-G" />
                         <h2>Shop-G</h2>
                         <p>Shop-G is a PHP-based grocery shopping app featuring product listings, cart management, user feedback, and an admin panel, all powered by a MySQL database for efficient data handling.</p>
                         <h3>Technology Stack</h3>
@@ -122,7 +132,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={cinevibe} alt="CineVibe" />
                         <h2>CineVibe</h2>
                         <p>CineVibe is an open-source web application designed for movie lovers to watch, download, and book tickets for movies online. The site is managed by an admin having full access.</p>
                         <h3>Technology Stack</h3>
@@ -136,7 +146,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={kohinoor} alt="Kohinoor" />
                         <h2>Kohinoor</h2>
                         <p>Kohinoor is a PHP-based jewellery shopping app with cart management, purchase handling, admin CRUD, and feedback features, using MySQL for efficient data management.</p>
                         <h3>Technology Stack</h3>
@@ -150,7 +160,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={kavach} alt="Kavach" />
                         <h2>Kavach</h2>
                         <p>Kavach is a mobile app focused on women’s safety, featuring SOS alerts, live location sharing, emergency calls, and admin notifications for quick emergency support.</p>
                         <h3>Technology Stack</h3>
@@ -164,7 +174,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={ed_2} alt="BabyCare" />
                         <h2>BabyCare</h2>
                         <p>BabyCare is a Java desktop app offering offline baby care guidance, product recommendations, and name ideas, with admin-managed content for easy updates.</p>
                         <h3>Technology Stack</h3>
@@ -178,7 +188,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={culturyus} alt="CulturyUs" />
+                        <img src={newshub} alt="NewsHub" />
                         <h2>NewsHub</h2>
                         <p>NewsHub is a dynamic news platform allowing users to view news, send feedback, and interact, with admin control to manage and update content.</p>
                         <h3>Technology Stack</h3>
