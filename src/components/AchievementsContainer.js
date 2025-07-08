@@ -14,7 +14,7 @@ const achievements = [
     }
     ,
     {
-        title: "Medal for Academic Achievement – SSC (10th)",
+        title: "Medal for Academic Achievement – SSC",
         subtitle: "Awarded by Pentagon Career Institute, Shrirampur",
         details: "Received a medal and recognition for exceptional performance in the 10th-grade board exams during a felicitation program hosted by Pentagon Career Institute."
     }
