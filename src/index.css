@@ -810,6 +810,10 @@ footer {
     text-align: center;
   }
 
+  .aboutmeContainer p {
+    font-size: 16px;
+  }
+
   .dataContainer b,
   p {
     padding: 5px 10px;
