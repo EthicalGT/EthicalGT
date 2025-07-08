@@ -263,6 +263,11 @@ section {
   gap: 10px;
 }
 
+.btnContainer a {
+  text-decoration: none;
+  color: var(--surface-color);
+}
+
 .dataContainer .btnContainer button {
   padding: 10px 20px;
   background-color: transparent;
@@ -275,12 +280,12 @@ section {
 
 #explore-more {
   background-color: var(--accent-color);
-  color: var(--secondary-text-color);
+  color: var(--surface-color);
 }
 
 .dataContainer .btnContainer button:hover {
   background-color: var(--accent-color);
-  color: var(--secondary-text-color);
+  color: var(--surface-color);
 }
 
 .aboutmeContainer {
@@ -416,7 +421,7 @@ h1 {
   width: 25%;
   box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
   border-radius: 10px;
-  height: 500px;
+  height: 520px;
   margin: 20px 0px;
   background-color: transparent;
 }
@@ -432,6 +437,10 @@ h1 {
 h3,
 p {
   padding: 0px 15px;
+}
+
+.project-boxes h2 {
+  font-size: 20px;
 }
 
 .project-boxes .techstackContainer {
@@ -649,6 +658,7 @@ p {
 .social-connect h2 {
   color: var(--accent-color);
   margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .contact-form form {
@@ -768,9 +778,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-  * {
-    font-size: 16px;
-  }
 
   .hamburger-btn {
     display: flex;

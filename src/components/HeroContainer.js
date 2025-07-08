@@ -15,7 +15,7 @@ const HeroContainer = () => {
                             <b>Hey Ethusiasts! I'm <strong>Ganesh Telore</strong></b>
                             <span>A Full-Stack Enthusiast | Passionate Problem Solver | Quick Learner | Adaptability | Open Source Contributor | RESTFUL API Architect | Always Thinking, Always Building | Think. Explore. Execute !</span>
                             <div className="btnContainer">
-                                <button id="explore-more">Explore More</button>
+                                <button id="explore-more"><a href="#aboutme">Explore More</a></button>
                                 <ResumeOpener />
                             </div>
                         </div>

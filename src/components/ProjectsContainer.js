@@ -24,6 +24,7 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
                             <i class="fa-brands fa-golang"></i>
                         </div>
 
@@ -40,7 +41,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Ethicaldood"><i class="fa-brands fa-github"></i></a>
@@ -54,7 +56,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Ethicaldood-2.0"><i class="fa-brands fa-github"></i></a>
@@ -66,9 +69,8 @@ const ProjectsContainer = () => {
                         <p>EthicalDood 3.0 is a Java Swing/AWT desktop app that brings the full power of its web predecessors offline, adding new tools like a plagiarism detector, CMS, online compiler, and video lectures for an all-in-one coding platform.</p>
                         <h3>Technology Stack</h3>
                         <div className="techstackContainer">
-                            <i class="fa-brands fa-html5"></i>
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+
+                            <i class="fa-brands fa-java"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/EthicalDood-3.0"><i class="fa-brands fa-github"></i></a>
@@ -82,6 +84,7 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
                             <i class="fa-brands fa-golang"></i>
                         </div>
                         <div className="actionContainers">
@@ -97,7 +100,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-python"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/LocalPal"><i class="fa-brands fa-github"></i></a>
@@ -111,7 +115,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-python"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Psychbuddy"><i class="fa-brands fa-github"></i></a>
@@ -125,7 +130,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Shop-G"><i class="fa-brands fa-github"></i></a>
@@ -139,7 +145,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/CineVibe"><i class="fa-brands fa-github"></i></a>
@@ -153,7 +160,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Kohinoor"><i class="fa-brands fa-github"></i></a>
@@ -165,9 +173,8 @@ const ProjectsContainer = () => {
                         <p>Kavach is a mobile app focused on women’s safety, featuring SOS alerts, live location sharing, emergency calls, and admin notifications for quick emergency support.</p>
                         <h3>Technology Stack</h3>
                         <div className="techstackContainer">
-                            <i class="fa-brands fa-html5"></i>
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-android"></i>
+                            <i class="fa-brands fa-java"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Kavach"><i class="fa-brands fa-github"></i></a>
@@ -179,9 +186,7 @@ const ProjectsContainer = () => {
                         <p>BabyCare is a Java desktop app offering offline baby care guidance, product recommendations, and name ideas, with admin-managed content for easy updates.</p>
                         <h3>Technology Stack</h3>
                         <div className="techstackContainer">
-                            <i class="fa-brands fa-html5"></i>
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-java"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/Babycare"><i class="fa-brands fa-github"></i></a>
@@ -195,7 +200,8 @@ const ProjectsContainer = () => {
                         <div className="techstackContainer">
                             <i class="fa-brands fa-html5"></i>
                             <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-golang"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-php"></i>
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/NewsHub"><i class="fa-brands fa-github"></i></a>
