@@ -439,7 +439,8 @@ p {
   padding: 0px 15px;
 }
 
-.project-boxes h2 {
+.project-boxes h2,
+h3 {
   font-size: 20px;
 }
 
@@ -778,6 +779,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+  * {
+    font-size: 16px;
+  }
 
   .hamburger-btn {
     display: flex;
