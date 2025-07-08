@@ -89,7 +89,7 @@ const ContactMeContainer = () => {
                     <aside className="social-connect">
                         <h2>Let's Connect</h2>
                         <p>
-                            I'm always excited to meet like-minded individuals...
+                            I'm always excited to meet like-minded individuals, collaborate on creative projects, or simply have a good conversation. Whether you have an idea, a question, or just want to say hello — feel free to reach out. Let's build something meaningful together!
                         </p>
                         <p id="phonePara">
                             <i className="fa-solid fa-phone"></i>+91 8010486885
