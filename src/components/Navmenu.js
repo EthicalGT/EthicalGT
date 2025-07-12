@@ -42,6 +42,7 @@ const Navmenu = () => {
           <li><a href="#achievements" onClick={closeMenu}>Achievements</a></li>
           <li><a href="#contactme" onClick={closeMenu}>Contact Me</a></li>
         </ul>
+        <span>Engineered with <i class="fa-solid fa-heart-pulse"></i> by GT</span>
       </nav>
     </>
   );

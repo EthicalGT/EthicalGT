@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EthicalGT/static/css/main.832f6c73.css",
-    "main.js": "/EthicalGT/static/js/main.a6bf1cdb.js",
+    "main.css": "/EthicalGT/static/css/main.50c3b9ca.css",
+    "main.js": "/EthicalGT/static/js/main.599b8821.js",
     "static/js/453.ff32b055.chunk.js": "/EthicalGT/static/js/453.ff32b055.chunk.js",
     "static/media/culturyus.png": "/EthicalGT/static/media/culturyus.18779a6b64a0e2420674.png",
     "static/media/Ubuntu-Regular.ttf": "/EthicalGT/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
@@ -16,12 +16,12 @@
     "static/media/ed_2.jpeg": "/EthicalGT/static/media/ed_2.322cd803fd7c65a007d4.jpeg",
     "static/media/kavach.png": "/EthicalGT/static/media/kavach.3d7bed622b18bde51457.png",
     "index.html": "/EthicalGT/index.html",
-    "main.832f6c73.css.map": "/EthicalGT/static/css/main.832f6c73.css.map",
-    "main.a6bf1cdb.js.map": "/EthicalGT/static/js/main.a6bf1cdb.js.map",
+    "main.50c3b9ca.css.map": "/EthicalGT/static/css/main.50c3b9ca.css.map",
+    "main.599b8821.js.map": "/EthicalGT/static/js/main.599b8821.js.map",
     "453.ff32b055.chunk.js.map": "/EthicalGT/static/js/453.ff32b055.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.832f6c73.css",
-    "static/js/main.a6bf1cdb.js"
+    "static/css/main.50c3b9ca.css",
+    "static/js/main.599b8821.js"
   ]
 }

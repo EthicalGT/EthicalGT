@@ -1,6 +1,7 @@
 import GT from '../assets/img/GT.png';
 import FadeUpOnScroll from './FadeUpOnScroll';
 import ResumeOpener from './ResumeOpener';
+import { Typewriter } from 'react-simple-typewriter';
 
 const HeroContainer = () => {
     return (
@@ -12,8 +13,22 @@ const HeroContainer = () => {
                             <img src={GT} alt="Developer-GT" />
                         </div>
                         <div className="dataContainer">
-                            <b>Hey Ethusiasts! I'm <strong>Ganesh Telore</strong></b>
-                            <span>A Full-Stack Enthusiast | Passionate Problem Solver | Quick Learner | Adaptability | Open Source Contributor | RESTFUL API Architect | Always Thinking, Always Building | Think. Explore. Execute !</span>
+                            <b>
+                                Hey Ethusiasts! I'm <strong className="typewriter-name">
+                                    <Typewriter
+                                        words={['Ganesh Telore', 'a Full Stack Developer', 'a Creator', 'an Open Source Contributor', 'a Problem Solver']}
+                                        loop={0}
+                                        cursor
+                                        cursorStyle="|"
+                                        typeSpeed={70}
+                                        deleteSpeed={50}
+                                        delaySpeed={1000}
+                                    />
+                                </strong>
+                            </b>
+                            <span>
+                                A Full-Stack Enthusiast | RESTFUL API Architect | Always Thinking, Always Building | Think. Explore. Execute!
+                            </span>
                             <div className="btnContainer">
                                 <button id="explore-more"><a href="#aboutme">Explore More</a></button>
                                 <ResumeOpener />

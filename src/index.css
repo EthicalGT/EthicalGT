@@ -126,17 +126,23 @@ body {
   transition: all 0.4s ease;
 }
 
+.hamburger-btn div:hover {
+  background-color: var(--accent-color);
+}
+
 .hamburger-btn div:nth-child(1) {
   width: 100%;
 }
 
 .hamburger-btn div:nth-child(2) {
   width: 75%;
+
 }
 
 .hamburger-btn div:nth-child(3) {
   width: 50%;
 }
+
 
 .bar1.change {
   transform: translateY(5px) rotate(45deg);
@@ -199,8 +205,18 @@ body {
 }
 
 .side-menu ul li a:hover {
-  background-color: var(--accent-color);
-  color: var(--surface-color);
+  color: var(--accent-color);
+  text-shadow: #00aaff;
+}
+
+.side-menu span {
+  text-align: center;
+  padding: 10px 20px;
+  color: var(--accent-color);
+  border-top: 1px solid var(--border-color);
+  bottom: 30px;
+  font-size: 18px;
+  position: fixed;
 }
 
 section {
@@ -227,9 +243,9 @@ section {
 }
 
 .imgContainer img {
-  width: 70%;
+  width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -241,13 +257,22 @@ section {
   justify-content: center;
 }
 
+.dataContainer b .typewriter-name span {
+  font-size: 3rem !important;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
 .dataContainer b {
   padding: 20px 0px;
   font-size: 3rem;
 }
 
+.dataContainer b strong {
+  font-size: 40px;
+}
+
 .dataContainer span {
-  padding: 10px 0px;
   font-size: 16px;
 }
 
@@ -418,19 +443,20 @@ h1 {
 }
 
 .projectsContainer .project-boxes {
-  width: 25%;
+  width: 26%;
   box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
   border-radius: 10px;
-  height: 520px;
+  height: 560px;
   margin: 20px 0px;
   background-color: transparent;
 }
 
 .project-boxes img {
   width: 100%;
-  height: 140px;
+  height: 180px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border: 2px solid var(--secondary-text-color);
 }
 
 .project-boxes h2,
@@ -441,7 +467,11 @@ p {
 
 .project-boxes h2,
 h3 {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.project-boxes h2 {
+  color: var(--accent-color);
 }
 
 .project-boxes .techstackContainer {
@@ -512,15 +542,18 @@ h3 {
 }
 
 .skills .skillbox {
-  margin: 20px 0px;
+  margin: 10px 0px;
   padding: 10px 10px;
   border: 1px solid var(--border-color);
   background-color: transparent;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
-  gap: 10px;
   transition: 0.5s ease-in-out;
+}
+
+.skillbox .icon {
+  padding-right: 5px;
 }
 
 .skills .skillbox:hover {
@@ -589,7 +622,7 @@ h3 {
   display: block;
   text-align: center;
   margin-top: 10px;
-  font-size: 0.9rem;
+  font-size: 18px;
 }
 
 .toggle-button {
@@ -616,6 +649,7 @@ h3 {
 
 .view-more p {
   text-align: justify;
+  font-size: 18px;
 }
 
 .view-more.show {
@@ -783,6 +817,14 @@ footer {
     font-size: 16px;
   }
 
+  .branding {
+    font-size: 1.8rem;
+  }
+
+  .branding span {
+    font-size: 1.8rem;
+  }
+
   .hamburger-btn {
     display: flex;
   }
@@ -819,6 +861,10 @@ footer {
     padding: 5px 10px;
   }
 
+  .dataContainer span {
+    padding: 10px 15px;
+  }
+
   .btnContainer {
     justify-content: center;
   }
@@ -852,7 +898,7 @@ footer {
   .skillContainer .skillNavigators {
     gap: 20px;
     padding: 5px 0px;
-    height: 210px;
+    height: auto;
   }
 
   .contact-form {
@@ -868,6 +914,11 @@ footer {
   }
 
   .activeTab::after {
-    bottom: 20px;
+    bottom: 2px;
+  }
+
+  .skillContainer .skills {
+    height: auto;
+    gap: 20px;
   }
 }

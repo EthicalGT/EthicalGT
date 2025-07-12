@@ -9,7 +9,7 @@ const achievements = [
     },
     {
         title: "Academic Excellence Award – SSC (10th Grade)",
-        subtitle: "Felicitated at Kopargaon for securing top marks in 10th Board",
+        subtitle: "Felicitated at Kopargaon for securing top marks in SSC",
         details: "Honored by a renowned Marathi TV actress and Shri Ashutosh Kale (MLA, Kopargaon) in a public ceremony for outstanding academic performance in the SSC Board exams."
     }
     ,

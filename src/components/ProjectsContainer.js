@@ -63,6 +63,7 @@ const ProjectsContainer = () => {
                             <a href="https://github.com/EthicalGT/Ethicaldood-2.0"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
+
                     <div className="project-boxes">
                         <img src={ed_3} alt="EthicalDood 3.0" />
                         <h2>EthicalDood 3.0</h2>
