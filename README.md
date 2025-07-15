@@ -80,7 +80,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Check+out+my+Portfolio!;Click+here+to+know+more..." alt="Typing SVG" />
   </a>
   <br/>
-  <a href="https://ethicalgt.github.io/EthicalGT/" target="_blank">
+  <a href="https://ganeshtelore.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/My%20Portfolio-0A0A0A?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
 </p>
