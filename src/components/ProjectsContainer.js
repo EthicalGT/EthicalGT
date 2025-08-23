@@ -7,6 +7,9 @@ import newshub from '../assets/img/projects_img/newshub.jpeg';
 import cinevibe from '../assets/img/projects_img/cinevibe.jpeg';
 import kavach from '../assets/img/projects_img/kavach.png';
 import kohinoor from '../assets/img/projects_img/kohinoor.jpeg';
+import babycare from '../assets/img/projects_img/babycare.png';
+import ethicalpay2 from '../assets/img/projects_img/ethicalpay2.png';
+import ethixion from '../assets/img/projects_img/Ethixion.png';
 
 import FadeUpOnScroll from './FadeUpOnScroll';
 
@@ -67,7 +70,7 @@ const ProjectsContainer = () => {
                     <div className="project-boxes">
                         <img src={ed_3} alt="EthicalDood 3.0" />
                         <h2>EthicalDood 3.0</h2>
-                        <p>EthicalDood 3.0 is a Java Swing/AWT desktop app that brings the full power of its web predecessors offline, adding new tools like a plagiarism detector, CMS, online compiler, and video lectures for an all-in-one coding platform.</p>
+                        <p>EthicalDood 3.0 is a Java Swing/AWT desktop app that brings the full power of its web predecessors offline, adding new tools like a plagiarism detector, CMS, online compiler, and many more.</p>
                         <h3>Technology Stack</h3>
                         <div className="techstackContainer">
 
@@ -91,6 +94,22 @@ const ProjectsContainer = () => {
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/EthicalPay"><i class="fa-brands fa-github"></i></a>
                             <a href="https://troubled-eloisa-ethicalpay-eb02efa7.koyeb.app/"><i class="fa-solid fa-rocket"></i></a>
+                        </div>
+                    </div>
+                    <div className="project-boxes">
+                        <img src={ethicalpay2} alt="EthicalPay" />
+                        <h2>EthicalPay 2.0</h2>
+                        <p>EthicalPay II is an SaaS, API-driven Payment Gateway Simulation Framework designed for developers, students, and researchers to test and experiment with payment workflows.</p>
+                        <h3>Technology Stack</h3>
+                        <div className="techstackContainer">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-golang"></i>
+                        </div>
+                        <div className="actionContainers">
+                            <a href="https://github.com/EthicalGT/EthicalPay"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://ethicalpay2.koyeb.app/"><i class="fa-solid fa-rocket"></i></a>
                         </div>
                     </div>
                     <div className="project-boxes">
@@ -182,7 +201,7 @@ const ProjectsContainer = () => {
                         </div>
                     </div>
                     <div className="project-boxes">
-                        <img src={ed_2} alt="BabyCare" />
+                        <img src={babycare} alt="BabyCare" />
                         <h2>BabyCare</h2>
                         <p>BabyCare is a Java desktop app offering offline baby care guidance, product recommendations, and name ideas, with admin-managed content for easy updates.</p>
                         <h3>Technology Stack</h3>
@@ -206,6 +225,21 @@ const ProjectsContainer = () => {
                         </div>
                         <div className="actionContainers">
                             <a href="https://github.com/EthicalGT/NewsHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div className="project-boxes">
+                        <img src={ethixion} alt="Ethixion" />
+                        <h2>Ethixion</h2>
+                        <p>Ethixion is an advanced Web Application Firewall (WAF) and API security platform designed to safeguard modern applications against evolving cyber threats.
+                            <strong>Ethixion is under development...</strong>
+                        </p>
+                        <h3>Technology Stack</h3>
+                        <div className="techstackContainer">
+                            <i class="fa-brands fa-react"></i>
+                            <i class="fa-brands fa-rust"></i>
+                        </div>
+                        <div className="actionContainers">
+                            <a href="https://github.com/EthicalGT/Ethixion-FE"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
