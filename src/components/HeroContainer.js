@@ -10,9 +10,7 @@ const HeroContainer = () => {
                 <FadeUpOnScroll>
                     <div className="heroContainer">
                         <div className="imgContainer">
-                            <div className="borderGlow">
-                                <img src={GT} alt="Developer-GT" />
-                            </div>
+                            <img src={GT} alt="Developer-GT" />
                         </div>
 
                         <div className="dataContainer">

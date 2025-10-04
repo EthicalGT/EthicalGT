@@ -6,7 +6,7 @@ const EducationCertification = () => {
             <FadeUpOnScroll>
                 <section id="education">
                     <h1 id="educationHeading">Education & Certifications</h1>
-
+                    <div className="headingContainer"><h1 id="edu-mob-heading">Education</h1></div>
                     <div class="ECContainer">
                         <div class="education-timeline-container">
                             <div class="timeline-card">
@@ -25,6 +25,7 @@ const EducationCertification = () => {
                                 <p><strong>Aggregate CGPA:</strong> Persuing</p>
                             </div>
                         </div>
+                        <h1 id="cert-mob-heading">Certifications</h1>
                         <div class="certification-timeline-container">
                             <div class="timeline-card">
                                 <i class="fa-solid fa-award certificate"></i>
