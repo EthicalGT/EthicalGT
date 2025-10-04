@@ -16,6 +16,7 @@ import boss from "../assets/img/projects_img/boss.png";
 import aura from "../assets/img/projects_img/aura.png";
 import hodportfolio from "../assets/img/projects_img/hodportfolio.png";
 import alternate from "../assets/img/projects_img/alternate.png";
+import portfolio from "../assets/img/projects_img/portfolio.png";
 
 
 import FadeUpOnScroll from './FadeUpOnScroll';
@@ -224,11 +225,30 @@ const ProjectsContainer = () => {
             demo: "https://bossservice.vercel.app/",
             label: "In Development"
         },
-
+        {
+            name: "My First Portfolio",
+            category: "Web Designs",
+            image: portfolio,
+            description: "My very first portfolio project, built in just one day using HTML5, CSS, and JavaScript. It reflects my initial steps into frontend development, focusing on layout, styling, and interactivity.",
+            techStack: ["html5", "css3-alt", "js"],
+            github: "https://github.com/EthicalGT/Portfolio-Project.git",
+            demo: null,
+            label: "Completed"
+        },
+        {
+            name: "BookHaven",
+            category: "Full Stack",
+            image: alternate,
+            description: "BookHaven is a simple and fun full-stack book management system that demonstrates CRUD (Create, Read, Update, Delete) operations. Built using Django for the backend and HTML, CSS, and JavaScript for the frontend.",
+            techStack: ["html5", "css3-alt", "js", "python"],
+            github: "https://github.com/EthicalGT/BookHaven",
+            demo: null,
+            label: "Completed"
+        },
 
     ];
 
-    const categories = ["All", "Full Stack", "Mobile Application", "Frontend", "Freelancing", "Web Designs"];
+    const categories = ["All", "Full Stack", "Mobile Application", "Freelancing", "Web Designs"];
 
     const filteredProjects =
         activeCategory === "All"
