@@ -33,15 +33,14 @@ const EducationCertification = () => {
                                 <p><strong>Institute:</strong> IT Planet Programming, Shrirampur</p>
                                 <p><strong>Grade:</strong> A+</p>
                             </div>
-
                             <div class="timeline-card">
                                 <i class="fa-solid fa-award certificate"></i>
-
-                                <h3>Master of Computer Applications (MCA)</h3>
-                                <p><strong>Year of Passing:</strong> 2026</p>
-                                <p><strong>University:</strong> Savitribai Phule Pune University</p>
-                                <p><strong>Aggregate CGPA:</strong> Persuing</p>
+                                <h3>Google’s Golang Specialization</h3>
+                                <p><strong>Year of Passing:</strong> 2024</p>
+                                <p><strong>Institute:</strong> Coursera</p>
+                                <p><strong>Grade:</strong> Completed with Distinction</p>
                             </div>
+
                         </div>
                     </div>
                 </section>

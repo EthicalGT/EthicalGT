@@ -219,9 +219,13 @@ body {
   position: fixed;
 }
 
+#home {
+  margin-top: 80px;
+}
+
 section {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .heroContainer {
@@ -432,9 +436,55 @@ h1 {
   font-size: 0.95rem;
 }
 
+.category-buttons {
+  width: 90%;
+  margin: 0px 5%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-buttons button {
+  padding: 8px 15px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  color: var(--muted-text-color);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  outline: none;
+  font-weight: bold;
+  -webkit-tap-highlight-color: transparent;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.category-buttons button:hover {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.category-buttons button.active {
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.category-buttons button:active {
+  background-color: transparent;
+  color: var(--surface-color);
+  border-bottom: 2px solid var(--accent-color);
+  box-shadow: none;
+}
+
+
 .projectsContainer {
   width: 90%;
-  margin: 10px 5%;
+  margin: 0px 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,7 +493,7 @@ h1 {
 }
 
 .projectsContainer .project-boxes {
-  width: 26%;
+  width: 30%;
   box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
   border-radius: 10px;
   height: 560px;
@@ -458,6 +508,56 @@ h1 {
   border-top-right-radius: 10px;
   border: 2px solid var(--secondary-text-color);
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.project-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.project-boxes:hover .project-label {
+  color: var(--accent-color);
+  opacity: 1;
+  transform: translateY(0);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project-label i {
+  animation: spin 2s linear infinite;
+  color: #00ffff;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .project-boxes h2,
 h3,
@@ -874,7 +974,7 @@ footer {
   }
 
   #educationHeading {
-    padding: 5px 10px;
+    padding: 0px 10px;
   }
 
   .timeline-card {
@@ -896,6 +996,7 @@ footer {
   }
 
   .skillContainer .skillNavigators {
+    justify-content: center;
     gap: 20px;
     padding: 5px 0px;
     height: auto;
@@ -920,5 +1021,9 @@ footer {
   .skillContainer .skills {
     height: auto;
     gap: 20px;
+  }
+
+  .category-buttons {
+    justify-content: center;
   }
 }
