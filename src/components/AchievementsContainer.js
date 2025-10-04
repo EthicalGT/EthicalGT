@@ -17,6 +17,21 @@ const achievements = [
         title: "Medal for Academic Achievement – SSC",
         subtitle: "Awarded by Pentagon Career Institute, Shrirampur",
         details: "Received a medal and recognition for exceptional performance in the 10th-grade board exams during a felicitation program hosted by Pentagon Career Institute."
+    },
+    {
+        "title": "Best Copyright Project Award",
+        "subtitle": "Certificate Received from HOD – MCA Induction Program",
+        "details": "Awarded for developing an original and innovative project during the first-year MCA induction program at Culturyus. Recognized by the Head of Department for creativity, originality, and adherence to copyright standards, demonstrating a strong understanding of intellectual property and professional project implementation."
+    },
+    {
+        "title": "Best IT Assembly Presenter",
+        "subtitle": "Awarded for FYMCA Students – 2025",
+        "details": "Recognized as the Best Presenter during the IT Assembly for First-Year MCA students in 2025. Delivered an engaging and informative session on 'Dark Web' topics, demonstrating strong communication skills, technical understanding, and the ability to simplify complex concepts for peers."
+    },
+    {
+        "title": "EthicalPay V2 - Research Paper",
+        "subtitle": "Developer-Centric Simulated Payment Gateway",
+        "details": "Published a research paper on EthicalPay V2, a security-focused SaaS platform I developed. The platform provides a simulated payment gateway with real-time transaction debugging and smart failure prediction. Highlighted innovative approaches to secure payment simulation, developer usability, and proactive failure management, contributing to safer and more efficient transaction testing."
     }
 
 ];

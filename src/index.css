@@ -219,10 +219,6 @@ body {
   position: fixed;
 }
 
-#home {
-  margin-top: 80px;
-}
-
 section {
   width: 100%;
   margin-top: 20px;
@@ -230,14 +226,16 @@ section {
 
 .heroContainer {
   width: 100%;
+  height: 90vh;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   gap: 5%;
 }
 
 .heroContainer .imgContainer {
-  width: 40%;
+  width: 35%;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -246,12 +244,60 @@ section {
   border-radius: 8px;
 }
 
-.imgContainer img {
+.imgContainer {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  background: #111718;
+}
+
+.borderGlow {
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  background: #111718;
+}
+
+.borderGlow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  display: block;
+  border-radius: 50%;
+  padding: 5px;
+  background: conic-gradient(#00FFFF 0%, #111718 25%, #00FFFF 50%, #111718 75%, #00FFFF 100%);
+  -webkit-mask:
+    radial-gradient(farthest-side, transparent calc(100% - 10px), black calc(100% - 10px));
+  mask:
+    radial-gradient(farthest-side, transparent calc(100% - 10px), black calc(100% - 10px));
+  animation: rotateColors 2s linear infinite;
 }
+
+.borderGlow img {
+  display: block;
+  width: 100%;
+  height: 430px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #111718;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes rotateColors {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .heroContainer .dataContainer {
   width: 40%;
@@ -1024,6 +1070,6 @@ footer {
   }
 
   .category-buttons {
-    justify-content: center;
+    justify-content: left;
   }
 }

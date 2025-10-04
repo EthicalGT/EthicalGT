@@ -11,6 +11,12 @@ import kohinoor from '../assets/img/projects_img/kohinoor.jpeg';
 import babycare from '../assets/img/projects_img/babycare.png';
 import ethicalpay2 from '../assets/img/projects_img/ethicalpay2.png';
 import ethixion from '../assets/img/projects_img/Ethixion.png';
+import freelancing from "../assets/img/projects_img/freelancing.png";
+import boss from "../assets/img/projects_img/boss.png";
+import aura from "../assets/img/projects_img/aura.png";
+import hodportfolio from "../assets/img/projects_img/hodportfolio.png";
+import alternate from "../assets/img/projects_img/alternate.png";
+
 
 import FadeUpOnScroll from './FadeUpOnScroll';
 
@@ -81,7 +87,7 @@ const ProjectsContainer = () => {
         {
             name: "LocalPal",
             category: "Full Stack",
-            image: ed_2,
+            image: alternate,
             description: "LocalPal is a Django-based static web app with MySQL that guides users to nearby attractions. It features an admin panel for managing content and collecting user feedback.",
             techStack: ["html5", "css3-alt", "js", "python"],
             github: "https://github.com/EthicalGT/LocalPal",
@@ -91,7 +97,7 @@ const ProjectsContainer = () => {
         {
             name: "PsychBuddy",
             category: "Full Stack",
-            image: ed_2,
+            image: alternate,
             description: "PsychBuddy is a Django web app offering mental health support through therapy booking, emotion detection, resources, and community engagement—helping users manage their well-being effectively.",
             techStack: ["html5", "css3-alt", "js", "python"],
             github: "https://github.com/EthicalGT/Psychbuddy",
@@ -171,17 +177,17 @@ const ProjectsContainer = () => {
         {
             name: "AURA",
             category: "Full Stack",
-            image: ethixion, // you can replace this with the actual AURA image if available
+            image: aura,
             description: "AURA (Authentic Universal Ayurvedic Resource Authentication) is an AI and Blockchain-powered platform that ensures authenticity, transparency, and fair trade in the Ayurvedic herb supply chain. Farmers upload geo-tagged herb images through a mobile app.",
-            techStack: ["react", "blockchain", "ai"], // you can replace with actual tech icons if needed
+            techStack: ["react", "blockchain", "ai"],
             github: "https://github.com/EthicalGT/AURA.git",
-            demo: null,
+            demo: "https://aura-ktej.onrender.com/",
             label: "In Development"
         },
         {
             name: "HOD Portfolio - MCA Department",
             category: "Freelancing",
-            image: ed_2,
+            image: hodportfolio,
             description: "A freelance project for the MCA Department HOD portfolio, showcasing professional achievements, department updates, and faculty highlights with a modern and responsive design.",
             techStack: ["html5", "css3-alt", "js", "react"],
             github: "https://github.com/EthicalGT/KavitaSuryawanshi-Portfolio.git",
@@ -191,18 +197,18 @@ const ProjectsContainer = () => {
         {
             name: "ShishyArthi",
             category: "Web Designs",
-            image: ed_2, // replace with actual screenshot of ShishyArthi if available
-            description: "Shishyarthi is an innovative online platform designed to address real-world challenges faced by students. It offers a comprehensive suite of resources, including academic support, job opportunities, and tools for enhancing students' educational experiences and career readiness.",
-            techStack: ["html5", "css3-alt", "js"], // adjust if additional tech was used
+            image: alternate,
+            description: "Shishyarthi is an innovative online platform designed to address real-world challenges faced by students. It offers a comprehensive suite of resources, including academic support, job opportunities, and tools.",
+            techStack: ["html5", "css3-alt", "js"],
             github: "https://github.com/EthicalGT/Shishyarthi.git",
             demo: null,
             label: "Completed"
         },
         {
-            name: "Freelancing - Land Renting",
+            name: "Freelancing Project",
             category: "Freelancing",
-            image: ed_2,
-            description: "A project for MBA students focused on land renting for organic food growing. Due to a private agreement, the repository is private and cannot be disclosed.",
+            image: freelancing,
+            description: "A project for MBA students for organic food growing. Due to a private agreement, the repository is private and cannot be disclosed.",
             techStack: ["html5", "css3-alt", "js"],
             github: "https://github.com/EthicalGT/Freelancing.git",
             demo: "https://freelancing-seven.vercel.app/",
@@ -211,7 +217,7 @@ const ProjectsContainer = () => {
         {
             name: "BOSS",
             category: "Full Stack",
-            image: ed_2,
+            image: boss,
             description: "A new layer of browser-side security for web applications. The project is copyrighted; please do not attempt to copy. Built with Rust, Next.js, and ML models.",
             techStack: ["rust", "react", "js", "hexagon-nodes-bolt"],
             github: "https://github.com/EthicalGT/BOSS.git",
@@ -244,8 +250,6 @@ const ProjectsContainer = () => {
                         </button>
                     ))}
                 </div>
-
-                {/* Projects */}
                 <div className="projectsContainer">
                     {filteredProjects.map((proj) => (
                         <div className="project-boxes" key={proj.name}>
@@ -256,14 +260,12 @@ const ProjectsContainer = () => {
                                         {proj.label === "In Development" ? (
                                             <i className="fa-solid fa-spinner"></i>
                                         ) : (
-                                            <i className="fa-solid fa-circle-check"></i>
+                                            <i class="fa-solid fa-thumbs-up"></i>
                                         )}
                                         {proj.label}
                                     </div>
                                 )}
-
                             </div>
-
                             <h2>{proj.name}</h2>
                             <p>{proj.description}</p>
 
