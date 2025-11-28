@@ -363,6 +363,10 @@ h1 {
   justify-content: center;
 }
 
+.ECContainer h1 {
+  text-align: center;
+}
+
 .education-timeline-container {
   border-left: 4px solid #00ffff;
   padding-left: 30px;
@@ -1067,7 +1071,7 @@ footer {
   }
 
   #cert-mob-heading {
-    display: flex;
+    display: block;
   }
 
   #educationHeading {
