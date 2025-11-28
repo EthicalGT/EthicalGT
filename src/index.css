@@ -361,13 +361,13 @@ h1 {
   display: flex;
   gap: 30px;
   justify-content: center;
-  align-items: center;
 }
 
 .education-timeline-container {
   border-left: 4px solid #00ffff;
   padding-left: 30px;
   width: 95%;
+  height: fit-content;
   margin: 10px 30px;
 }
 
@@ -411,7 +411,7 @@ h1 {
   border-left: 4px solid #00ffff;
   padding-left: 30px;
   width: 95%;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .timeline-card {
@@ -457,6 +457,7 @@ h1 {
 
 #cert-mob-heading {
   display: none;
+  text-align: center;
 }
 
 .category-buttons {
@@ -677,6 +678,12 @@ h3 {
 
 .skillbox .icon {
   padding-right: 5px;
+}
+
+.skillbox img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 .skills .skillbox:hover {

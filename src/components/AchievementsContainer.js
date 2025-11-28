@@ -32,7 +32,8 @@ const achievements = [
         "title": "EthicalPay V2 - Research Paper",
         "subtitle": "Developer-Centric Simulated Payment Gateway",
         "details": "Published a research paper on EthicalPay V2, a security-focused SaaS platform I developed. The platform provides a simulated payment gateway with real-time transaction debugging and smart failure prediction. Highlighted innovative approaches to secure payment simulation, developer usability, and proactive failure management, contributing to safer and more efficient transaction testing."
-    }
+    },
+
 
 ];
 

@@ -9,7 +9,7 @@ const Navmenu = () => {
   return (
     <>
       <header className="navbar">
-        <div className="branding">Ethical<span>GT</span></div>
+        <div className="branding">Ganesh<span>&nbsp;Telore</span></div>
         <nav className="desktop-nav">
           <ul>
             <li><a href="#home">Home</a></li>

@@ -1,5 +1,13 @@
 import { useState } from "react";
 import FadeUpOnScroll from "./FadeUpOnScroll";
+import postman from "../assets/img/extras/postman.svg";
+import springboot from "../assets/img/extras/springboot.svg";
+import rocket from "../assets/img/extras/rocket.svg";
+import django from "../assets/img/extras/django.svg";
+import flask from "../assets/img/extras/flask.svg";
+import echo from "../assets/img/extras/echo.png";
+import docker from "../assets/img/extras/docker.svg";
+
 
 const SkillStackContainer = () => {
     const [activeTab, setActiveTab] = useState("Frontend");
@@ -13,24 +21,20 @@ const SkillStackContainer = () => {
         ],
         Backend: [
             { icon: "fa-brands fa-rust icon", label: "Rust" },
-            { icon: "fa-solid fa-database icon", label: "MongoDB" },
             { icon: "fa-brands fa-python icon", label: "Python" },
             { icon: "fa-brands fa-golang icon", label: "GoLang" },
             { icon: "fa-brands fa-java icon", label: "Java" },
             { icon: "fa-brands fa-php icon", label: "PHP" },
         ],
         Others: [
-            { icon: "fa-solid fa-code-branch icon", label: "Git" },
-            { icon: "fa-brands fa-figma icon", label: "Figma" },
             { icon: "fa-brands fa-linux icon", label: "Linux" },
         ],
         Frameworks: [
-            { icon: "fa-solid fa-folder-tree icon", label: "SpringBoot" },
-            { icon: "fa-solid fa-folder-tree icon", label: "Spring" },
-            { icon: "fa-solid fa-folder-tree icon", label: "Echo" },
-            { icon: "fa-solid fa-folder-tree icon", label: "Rocket" },
-            { icon: "fa-solid fa-folder-tree icon", label: "Django" },
-            { icon: "fa-solid fa-folder-tree icon", label: "Flask" },
+            { image: springboot, label: "SpringBoot" },
+            { image: echo, label: "Echo" },
+            { image: rocket, label: "Rocket" },
+            { image: django, label: "Django" },
+            { image: flask, label: "Flask" },
         ],
         Databases: [
             { icon: "fa-solid fa-database icon", label: "MongoDB" },
@@ -38,6 +42,12 @@ const SkillStackContainer = () => {
             { icon: "fa-solid fa-database icon", label: "SQLite" },
             { icon: "fa-solid fa-database icon", label: "Oracle" },
             { icon: "fa-solid fa-database icon", label: "PostgresSQL" },
+        ],
+        Tools: [
+            { image: postman, label: "PostMan API" },
+            { image: docker, label: "Docker" },
+            { icon: "fa-solid fa-code-branch icon", label: "Git" },
+            { icon: "fa-brands fa-figma icon", label: "Figma" },
         ],
     };
 
@@ -47,7 +57,7 @@ const SkillStackContainer = () => {
                 <h1>Skills & Stack</h1>
                 <div className="skillContainer">
                     <div className="skillNavigators">
-                        {["Frontend", "Backend", "Frameworks", "Databases", "Others"].map((tab) => (
+                        {["Frontend", "Backend", "Frameworks", "Databases", "Tools", "Others"].map((tab) => (
                             <span
                                 key={tab}
                                 onClick={() => setActiveTab(tab)}
@@ -61,11 +71,16 @@ const SkillStackContainer = () => {
                     <div className="skills">
                         {skillsData[activeTab].map((skill, index) => (
                             <div className="skillbox" key={index}>
-                                <i className={skill.icon}></i>
+                                {skill.image ? (
+                                    <img src={skill.image} alt={skill.label} className="skill-img" />
+                                ) : (
+                                    <i className={skill.icon}></i>
+                                )}
                                 <span>{skill.label}</span>
                             </div>
                         ))}
                     </div>
+
                 </div>
             </FadeUpOnScroll>
         </section>

@@ -28,7 +28,7 @@ const HeroContainer = () => {
                                 </strong>
                             </b>
                             <span>
-                                A Full-Stack Enthusiast | RESTFUL API Architect | Always Thinking, Always Building | Think. Explore. Execute!
+                                A Full-Stack Enthusiast | RESTful API Architect | Scalable System Designer | Saas Builder | Real-World Problem Solver | Clean Architecture Practitioner| Self-Taught Multi-Stack Engineer
                             </span>
                             <div className="btnContainer">
                                 <button id="explore-more"><a href="#aboutme">Explore More</a></button>

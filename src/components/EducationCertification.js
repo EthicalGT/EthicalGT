@@ -36,12 +36,20 @@ const EducationCertification = () => {
                             </div>
                             <div class="timeline-card">
                                 <i class="fa-solid fa-award certificate"></i>
-                                <h3>Google’s Golang Specialization</h3>
-                                <p><strong>Year of Passing:</strong> 2024</p>
-                                <p><strong>Institute:</strong> Coursera</p>
-                                <p><strong>Grade:</strong> Completed with Distinction</p>
+                                <h3>NPTEL Ethical Hacking Certification</h3>
+                                <p><strong>Duration:</strong> Jul – Oct 2025</p>
+                                <p><strong>Institute:</strong> IIT Kharagpur</p>
+                                <p><strong>Certification Platform:</strong> NPTEL</p>
+                                <p><strong>Status:</strong> Successfully Completed</p>
                             </div>
-
+                            <div class="timeline-card">
+                                <i class="fa-solid fa-award certificate"></i>
+                                <h3>NPTEL Cloud Computing Certification</h3>
+                                <p><strong>Duration:</strong> Jul – Oct 2025</p>
+                                <p><strong>Institute:</strong> IIT Kharagpur</p>
+                                <p><strong>Certification Platform:</strong> NPTEL</p>
+                                <p><strong>Status:</strong> Successfully Completed</p>
+                            </div>
                         </div>
                     </div>
                 </section>
