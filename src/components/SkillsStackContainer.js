@@ -15,6 +15,8 @@ const SkillStackContainer = () => {
     const skillsData = {
         Frontend: [
             { icon: "fa-solid fa-code icon", label: "React JS" },
+            { icon: "fa-solid fa-code icon", label: "Vue JS" },
+            { icon: "fa-solid fa-code icon", label: "Next JS" },
             { icon: "fa-brands fa-html5 icon", label: "HTML" },
             { icon: "fa-brands fa-css3-alt icon", label: "CSS" },
             { icon: "fa-brands fa-js icon", label: "JavaScript" },
