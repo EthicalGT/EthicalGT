@@ -6,7 +6,6 @@ import ProjectsContainer from './components/ProjectsContainer';
 import SkillStackContainer from './components/SkillsStackContainer';
 import AchievementsContainer from './components/AchievementsContainer';
 import ContactMeContainer from './components/ContactMeContainer';
-import FooterContainer from './components/FooterContainer';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <SkillStackContainer />
       <AchievementsContainer />
       <ContactMeContainer />
-      <FooterContainer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import FadeUpOnScroll from "./FadeUpOnScroll";
+import FooterContainer from "./FooterContainer";
 
 const ContactMeContainer = () => {
     const [formData, setFormData] = useState({
@@ -119,6 +120,7 @@ const ContactMeContainer = () => {
                     </aside>
                 </div>
             </section>
+            <FooterContainer />
         </FadeUpOnScroll>
     );
 };

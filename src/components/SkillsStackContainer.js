@@ -7,6 +7,7 @@ import django from "../assets/img/extras/django.svg";
 import flask from "../assets/img/extras/flask.svg";
 import echo from "../assets/img/extras/echo.png";
 import docker from "../assets/img/extras/docker.svg";
+import laravel from "../assets/img/extras/laravel.png";
 
 
 const SkillStackContainer = () => {
@@ -37,6 +38,7 @@ const SkillStackContainer = () => {
             { image: rocket, label: "Rocket" },
             { image: django, label: "Django" },
             { image: flask, label: "Flask" },
+            { image: laravel, label: "Laravel" },
         ],
         Databases: [
             { icon: "fa-solid fa-database icon", label: "MongoDB" },
