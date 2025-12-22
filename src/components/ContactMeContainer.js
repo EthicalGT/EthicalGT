@@ -107,10 +107,11 @@ const ContactMeContainer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:ganeshtelore4@gmail.com">
+                                <a href="mailto:ganeshtelore4@gmail.com?subject=Collaboration%20/%20Discussion&body=Hello%20Ganesh,%0D%0A%0D%0AI%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%20for%20a%20collaboration%20or%20professional%20discussion.%0D%0A%0D%0ARegards,%0D%0A[Your%20Name]">
                                     <i className="fa-solid fa-envelope"></i>
                                 </a>
                             </li>
+
                             <li>
                                 <a href="https://instagram.com/effortlessgt/" target="_blank" rel="noreferrer">
                                     <i className="fa-brands fa-instagram"></i>
