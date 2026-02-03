@@ -56,19 +56,19 @@ I prefer **depth over noise**, **projects over talk**, and **results over recogn
 
 ---
 
-## 📊 GitHub Analytics
+## 🚀 Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EthicalGT&show_icons=true&theme=radical&hide_border=true" />
-</p>
+- **EthicalDood 3.0**  
+  Open-source learning platform with forums, MCQs, plagiarism detection, and secure authentication.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EthicalGT&theme=radical&hide_border=true" />
-</p>
+- **Ethixion**  
+  Application-layer firewall built with **Rust + React**, focusing on request inspection and threat detection.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EthicalGT&layout=compact&theme=radical&hide_border=true" />
-</p>
+- **PsychBuddy**  
+  Mental health support platform designed with empathy, privacy, and usability in mind.
+
+- **BOSS Project**  
+  Service worker threat detection and backend command execution research project.
 
 ---
 
