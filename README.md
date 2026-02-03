@@ -54,6 +54,12 @@ I prefer **depth over noise**, **projects over talk**, and **results over recogn
   <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Robot Framework-4479A1?style=for-the-badge&logo=robotframework"/>
+  <img src="https://img.shields.io/badge/NextJS-4169E1?style=for-the-badge&logo=next-js"/>
+  <img src="https://img.shields.io/badge/React JS-4EA94B?style=for-the-badge&logo=react-js"/>
+</p>
+
 ---
 
 ## 🚀 Featured Projects
