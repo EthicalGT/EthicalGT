@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ganesh Telore! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h1>
 
 <p align="center">
-  <em>Second-Year MCA Student | Web Developer | Tech Enthusiast | Future AI/ML Engineer</em>
+  <em>Second-Year MCA Student | Web Developer | Tech Enthusiast | Security Driven Engineer</em>
 </p>
 
 ---
